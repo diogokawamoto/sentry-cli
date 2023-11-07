@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eux
 
-DOCKER_IMAGE="messense/rust-musl-cross:${DOCKER_TAG}"
+DOCKER_IMAGE="clux/muslrust:stable"
 BUILD_DIR="/work"
 
 DOCKER_RUN_OPTS="
